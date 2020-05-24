@@ -1,1 +1,2 @@
 var ourDate =new Date()
+var min=ourDate.Minutes()

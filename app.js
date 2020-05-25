@@ -1,10 +1,7 @@
 var date=new Date()
 var day=date.getDay()
-console.log(day)
 var hours=date.getHours()
-console.log(hours)
 var minutes=date.getMinutes()
-console.log(minutes)
 var daysInWeek=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
 var today=daysInWeek[day]
 if(hours<12)
